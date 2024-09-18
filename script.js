@@ -15,14 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			if (input.value.trim() === '' || input.value.trim() == null){
 				arr.push(errors[i]);
 				unvalidInput(input);
-			}
+			} else checkMail(inputs[2]);
 		});
 
 		if (arr.length !== 0){
 			alert(`Please fill next fields: ${arr.join(', ')}`);
 		};
 
-		checkMail(inputs[2]);
+		
 
 	});
 
