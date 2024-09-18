@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-image: url('img/bg-intro-desktop.png');
+	background-color: rgba(209, 77, 77, 0.8);
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.leftSide{
+	flex: 1 1 50%;
+	margin-right: 50px;
+	color: white;
+}
+
+.title{
+	font-size: 42px;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.text{
+	font-size: 18px;
+}
+
+.rightSide{
+	flex: 1 1 50%;
+}
+
+.adv{
+	display: block;
+	background-color:rgb(113, 78, 146);
+	border: none;
+	border-radius: 7px;
+	padding: 20px 0px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	box-shadow: 0 7px 0px rgba(0, 0, 0, .2);
+	transition-property: background-color, box-shadow, transform;
+	transition-timing-function: ease-in-out;
+	transition-duration: .2s;
+}
+
+.adv:hover{
+	background-color:rgb(175, 132, 215);
+	box-shadow: 0 7px 5px rgb(125, 85, 162);
+}
+
+.adv:active{
+	background-color: rgb(60, 35, 84);
+	box-shadow: none;
+	transform: translateY(2px);
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.form{
+	min-height: 450px;
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px 30px;
+	border-radius: 7px;
+	box-shadow: 0 7px 0px rgba(0, 0, 0, .2);
+}
+
+.form__input{
+	padding: 10px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 700;
+	transition: outline ease .1s;
+}
+
+.form__input:hover{
+	outline: 2px solid rgb(86, 199, 133);
+}
+
+.form__btn{
+	background-color: rgb(86, 199, 133);
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0px 5px 0px rgb(68, 163, 107);
+	cursor: pointer;
+	transition-property: background-color, box-shadow, color, transform;
+	transition-duration: .2s;
+	transition-timing-function: ease-in-out;
+}
+
+.form__btn:hover{
+	background-color: rgb(130, 228, 171);
+	box-shadow: 0px 5px 7px rgb(69, 125, 93);
+	color: black;
+}
+
+.form__btn:active{
+	background-color: rgb(55, 131, 87);
+	box-shadow:none;
+	transform: translateY(2px);
+}
+
+.form__agr{
+	padding-left: 10px;
+	color: rgb(186, 175, 196);
+	font-size: 14px;
+}
+
+.accent{
+	text-decoration: none;
+	color: rgb(238, 125, 125);
+	font-weight: 700;
+	transition: color ease .2s;
+}
+
+.accent:hover{
+	color: rgb(255, 0, 0);
+}
