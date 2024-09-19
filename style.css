@@ -94,6 +94,10 @@ body{
 	outline: 2px solid rgb(86, 199, 133);
 }
 
+.error{
+	outline: 2px solid red;
+}
+
 .form__btn{
 	background-color: rgb(86, 199, 133);
 	border: none;
